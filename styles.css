@@ -2,6 +2,32 @@
     margin: 0;
 }
 
+.instructions {
+    height: 150px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.around {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40%;
+    width: 50%;
+    background: rgba(85, 25, 144, 0.555);
+    border-radius: 10px;
+    box-shadow: 3px 15px 8px -10px rgba(0, 0, 0, 0.3);
+    backdrop-filter: blur(9px);
+    -webkit-backdrop-filter: blur(3px);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+h1 {
+    color: white;
+}
+
 .big-box {
     display: flex;
     width: 100%;
