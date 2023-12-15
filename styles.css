@@ -1,0 +1,102 @@
+* {
+    margin: 0;
+}
+
+.big-box {
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    display: grid;
+    height: 90vh;
+    width: 80%;
+
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 25px;
+}
+
+
+.item {
+    border-radius: 30px;
+    box-shadow: 3px 15px 8px -10px rgba(0, 0, 0, 0.5);
+}
+
+.item-1 {
+    grid-area: 1 / 1 / 2 / 2;
+    border-radius: 48px;
+    background: linear-gradient(145deg, #bcffc1, #9edaa2);
+    box-shadow: 5px 5px 10px #58795a,
+        -5px -5px 10px #ffffff;
+}
+
+.item-1:active {
+    border-radius: 48px;
+    background: #B0F2B4;
+    box-shadow: inset 5px 5px 10px #58795a,
+        inset -5px -5px 10px #ffffff;
+}
+
+.item-2 {
+    grid-area: 1 / 2 / 2 / 4;
+    border-radius: 48px;
+    background: linear-gradient(145deg, #c7fff9, #a7dad2);
+    box-shadow: 5px 5px 10px #5d7975,
+        -5px -5px 10px #ffffff;
+}
+
+.item-2:active {
+    border-radius: 48px;
+    background: #BAF2E9;
+    box-shadow: inset 5px 5px 10px #5d7975,
+        inset -5px -5px 10px #ffffff;
+}
+
+.item-3 {
+    grid-area: 1 / 4 / 2 / 5;
+    border-radius: 48px;
+    background: linear-gradient(145deg, #c7e6ff, #a7c2da);
+    box-shadow: 5px 5px 10px #5d6c79,
+        -5px -5px 10px #ffffff;
+}
+
+.item-3:active {
+    border-radius: 48px;
+    background: #BAD7F2;
+    box-shadow: inset 5px 5px 10px #5d6c79,
+        inset -5px -5px 10px #ffffff;
+}
+
+.item-4 {
+    grid-area: 2 / 1 / 2 / 3;
+    border-radius: 48px;
+    background: linear-gradient(145deg, #ffc7d7, #daa7b5);
+    box-shadow: 5px 5px 10px #795d65,
+        -5px -5px 10px #ffffff;
+}
+
+.item-4:active {
+    border-radius: 48px;
+    background: #F2BAC9;
+    box-shadow: inset 5px 5px 10px #795d65,
+        inset -5px -5px 10px #ffffff;
+}
+
+.item-5 {
+    grid-area: 2 / 3 / 3 / 5;
+    border-radius: 48px;
+    background: linear-gradient(145deg, #fff2c7, #dacba7);
+    box-shadow: 5px 5px 10px #79715d,
+        -5px -5px 10px #ffffff;
+}
+
+.item-5:active {
+    border-radius: 48px;
+    background: #F2E2BA;
+    box-shadow: inset 5px 5px 10px #79715d,
+        inset -5px -5px 10px #ffffff;
+}
